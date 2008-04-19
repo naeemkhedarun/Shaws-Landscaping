@@ -1,0 +1,171 @@
+body{ 
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    background-color:Black;
+    font-family: Trebuchet MS;
+}
+
+img{
+	border:0px;
+}
+
+#header
+{
+    background-image:url("../images/Grass.jpg");
+    background-repeat:repeat-x;
+    height:153px;
+}
+
+.logo{
+    margin-top:50px;
+}
+
+#maincontainer
+{
+    margin:0 auto;
+    top:153px;
+    width:733px;
+}
+
+
+#left
+{
+    float:left;
+    text-align:right;
+    width:189px;
+}
+
+#left a
+{
+    color:White;
+    text-decoration:none;
+}
+
+.left_bar_header
+{
+    width:157px;
+}
+
+
+#left_bar_body
+{
+    color:White;
+    background-image:url("../images/ButtonMiddle.png");
+    background-repeat:repeat-y;
+    float:right;
+    width:157px;
+}
+
+#left_bar_body_text
+{
+    padding:1em;
+    text-align:left;
+    font-weight:bolder;
+}
+
+.left_bar_footer
+{
+    width:189px;
+}
+
+#right
+{
+    float:left;
+    text-align:left;
+    width:534px;
+    margin-left:10px;
+}
+
+.right_header
+{
+   /* width:33.4em; */
+   width:534px;
+}
+
+#right_body
+{
+    /* width:33.4em; */
+    background-repeat:repeat-y;
+    background-position:right;
+    width:534px;
+    background-image:url("../images/MainBoxMiddle.png");
+}
+
+#right_body_text
+{
+    padding:0.5em;
+    text-align:justify;
+}
+
+.right_footer
+{
+    /*width:33.4em;*/
+    width:534px;
+}
+
+.right_body_images{
+	text-align: center;
+}
+
+.right_body_images img{
+	border:3px solid black;
+}
+
+.image_with_caption{
+
+}
+
+#caption_text{
+	width:225px;
+	text-align:center;
+}
+
+#stonepaving{
+	width:500px;
+	text-align:center;
+}
+
+#stonepaving table{
+	width:514px;
+}
+
+#stonepaving img{
+	border: 3px solid black;
+}
+
+#stonepaving td{
+	text-align:center;
+	padding-top:1em;
+}
+
+/*.portfolio_main_right{
+	align:right;
+}
+
+.portfolio_main_left{
+	align:left;
+}*/
+
+#portfoliopage{
+	width:500px;
+	text-align:left;
+}
+
+#portfoliopage table{
+	width:514px;
+}
+
+#portfoliopage img{
+	border: 3px solid black;
+	margin: 1em;
+}
+
+#portfoliopage td{
+	text-align:left;
+	padding-top:1em;
+}
+
+#centerimages{
+	text-align:center;
+}

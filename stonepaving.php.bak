@@ -1,0 +1,110 @@
+<?php ob_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link rel="stylesheet" href="styles/test.css" type="text/css" media="screen" />
+    </head>
+	<body>
+	    <!-- Shows the grass and centered logo at the top. -->
+	    <div id="header">
+	        <img class="logo" src="images/logo.png" />
+	    </div>
+	    <!-- Main Container with left side bar and content area. -->
+	    <div id="maincontainer">
+	        <div id="left">
+	            <img class="left_bar_header" src="images/ButtonTop.png" /><div id="left_bar_body">
+	                <div id="left_bar_body_text">
+	                    <!-- All Left Bar Links here. -->
+	                        <a href="index.php">Home</a><br />
+	                        <a href="stonepaving.php">Stone Paving</a><br />
+	                        <a href="blockpaving.php">Block Paving</a><br />
+	                        <a href="fencing.php">Fencing</a><br />
+	                        <a href="decking.php">Decking</a><br />
+	                        <a href="pond.php">Water Features</a><br />
+	                        <a href="pond.php">Ponds</a><br />
+	                        <a href="pond.php">Rockery</a><br />   
+	                        <a href="contact.php">Contact Us</a><br />   
+	                </div>
+	            </div><img class="left_bar_footer" src="images/ButtonFlower.png" />
+	        </div>
+	        <div id="right">
+	            <img class="right_header" src="images/MainBoxTop.png" /><div id="right_body" style="background-image:url("images/MainBoxMiddle.png");">
+	                <div id="right_body_text">
+	                    <!-- All main page content here. -->
+    <h2>
+        Natural Stone Paving</h2>
+    All our work is undertaken to high standards. We will clear the existing areas and
+    excavate to a depth of at least six inches, disposing of all unwanted materials.
+    We will then create a foundation suitable to the nature of the paving being laid.
+    The foundation usually consist of a compacted leveled aggregate sub base. The paving
+    is then laid on a full concrete base.
+    <br />
+    <br />
+	There is a wide range of natural stone paving to choose from. We can help you to select the one to suit your needs.
+    <br />
+    <br />
+
+<div id="stonepaving">
+<span class="right_body_images">
+	<span class="image_with_caption">
+		<a href="images/example23.jpg"><img src="images/thumb_example23.jpg" /></a>
+		<!--<span class="caption_text">Black Limestone</span>-->
+	</span>
+</span>
+<span class="right_body_images">
+	<span class="image_with_caption">
+		<a href="images/example24.jpg"><img src="images/thumb_example24.jpg" /></a>
+	</span>
+</span>
+
+<div id="caption_text">Black Limestone</div><div id="caption_text">Green Slate</div>
+
+<div class="right_body_images">
+	<div class="image_with_caption">
+		<a href="images/example4.jpg"><img src="images/thumb_example4.jpg" /></a>
+		<div class="caption_text">Fossil Mint Sandstone</div>
+	</div>
+</div>
+<div class="right_body_images">
+	<div class="image_with_caption">
+		<a href="images/example9.jpg"><img src="images/thumb_example9.jpg" /></a>
+		<div class="caption_text">Gold Leaf Circle Kit</div>
+	</div>
+</div>
+<div class="right_body_images">
+	<div class="image_with_caption">
+		<a href="images/example26.jpg"><img src="images/thumb_example26.jpg" /></a>
+		<div class="caption_text">Gold Leaf Sandstone</div>
+	</div>
+</div>
+<div class="right_body_images">
+	<div class="image_with_caption">
+		<a href="images/example5.jpg"><img src="images/thumb_example5.jpg" /></a>
+		<div class="caption_text">Grey Sandstone</div>
+	</div>
+</div>
+<div class="right_body_images">
+	<div class="image_with_caption">
+		<a href="images/lucy25.jpg"><img src="images/thumb_lucy25.jpg" /></a>
+		<div class="caption_text">Brown Sandstone</div>
+	</div>
+</div>
+<div class="right_body_images">
+	<div class="image_with_caption">
+		<a href="images/ali11.jpg"><img src="images/thumb_ali11.jpg" /></a>
+		<div class="caption_text">Raj Green Sandstone</div>
+	</div>
+</div>
+</div>
+			</div>
+	            </div><img class="right_footer" src="images/MainBoxBottom.png" />
+	        </div>
+	    </div>
+	</body>
+</html>
+
+<?php
+    include_once 'replacePngTags.php';
+    echo replacePngTags(ob_get_clean());
+?>
